@@ -1,0 +1,156 @@
+/* Main CSS */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+    margin: 0;
+    padding: 20px 0;
+}
+
+nav li {
+    color: #fff;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    width: 80px;
+}
+
+main {
+    position: relative;
+    text-align: center;
+    top: 80px;
+}
+
+main h1 {
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 80px;
+    margin-top: 0px;
+    padding-top: 80px;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #333;
+    bottom: 0;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+}
+
+footer p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: url("https://content.codecademy.com/projects/broadway/bg.jpg");
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 800px;
+}
+
+.btn-main {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-default {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.supporting {
+    padding-bottom: 100px;
+    padding-top: 80px;
+    position: relative;
+    top: 50px;
+}
+
+.supporting .col {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    height: 200px;
+    text-align: center;
+    width: 200px;
+}
+
+.supporting img {
+    height: 32px;
+}
+
+.supporting h2 {
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.supporting p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.supporting a {
+    background-color: white;
+    border: 2px solid #333333;
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+    main h1 {
+        font-size: 50px;
+        padding: 0 40px;
+    }
+
+    .supporting .col {
+        width: 100%;
+    }
+}
